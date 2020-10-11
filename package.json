@@ -1,0 +1,21 @@
+{
+  "name": "graphql-serverless",
+  "version": "1.0.0",
+  "description": "An express graphical app with serverless lambda functions on amazon AWS.",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "keywords": [
+    "serverless",
+    "graghiql",
+    "api-consumption"
+  ],
+  "author": "Kwibe Merci",
+  "license": "ISC",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.8",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
